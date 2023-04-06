@@ -1,0 +1,39 @@
+.app {
+  width: 98%;
+  height: 580px;
+  margin: auto;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap
+}
+
+.Header {
+  border: 2px solid black;
+  width: 1300px;
+  margin: 10px;
+  height: 200px;
+  background-color: green;
+} 
+
+.Navigation {
+  width: 350px;
+  height: 340px;
+  margin: 10px;
+  border: 2px solid black;
+  background-color:rgb(91, 146, 168);
+}
+
+.Main {
+  width: 920px;
+  height: 400px;
+  margin: 10px;
+  border: 2px solid black;
+  background-color: tomato;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
